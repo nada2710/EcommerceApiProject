@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Visual Studio settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.dbmdl
+
+# Local secrets (خلي أسرارك محليًا بس)
+appsettings.Development.json
+
+# Node modules (لو بتستخدم npm في المشروع)
+node_modules/
+
+# Publish output
+publish/
+
+# OS generated files
+.DS_Store
+Thumbs.db

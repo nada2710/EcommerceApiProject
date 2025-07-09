@@ -1,0 +1,597 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|solutionrelative:ecommerceprojectapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\paymentmanager\\paymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\paymentmanager\\paymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectapi\\controllers\\paymentcontroller\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|solutionrelative:ecommerceprojectapi\\controllers\\paymentcontroller\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\paymentmanager\\ipaymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\paymentmanager\\ipaymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\dto\\paymentdto\\confirmpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\dto\\paymentdto\\confirmpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\dto\\paymentdto\\paymentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\dto\\paymentdto\\paymentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\shoppingcartitemmanager\\shoppingcartitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\shoppingcartitemmanager\\shoppingcartitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectapi\\controllers\\orderitemcontroller\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|solutionrelative:ecommerceprojectapi\\controllers\\orderitemcontroller\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectapi\\controllers\\accountcontroller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|solutionrelative:ecommerceprojectapi\\controllers\\accountcontroller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectdal\\data\\dbhelper\\ecommerceprojectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|solutionrelative:ecommerceprojectdal\\data\\dbhelper\\ecommerceprojectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\shoppingcartmanager\\shoppingcartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\shoppingcartmanager\\shoppingcartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\shoppingcartitemmanager\\ishoppingcartitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\shoppingcartitemmanager\\ishoppingcartitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\accountmanager\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\accountmanager\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\accountmanager\\iaccountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\accountmanager\\iaccountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\accountmanager\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\accountmanager\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\ordermanager\\ordermanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\ordermanager\\ordermanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\ordermanager\\iordermanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\ordermanager\\iordermanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\categorymanager\\icategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\categorymanager\\icategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\orderitemmanager\\iorderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\orderitemmanager\\iorderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\orderitemmanager\\orderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\orderitemmanager\\orderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\dto\\orderitemdto\\orderitemreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\dto\\orderitemdto\\orderitemreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\dto\\orderdto\\orderadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\dto\\orderdto\\orderadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\dto\\orderdto\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\dto\\orderdto\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\dto\\orderdto\\orderreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\dto\\orderdto\\orderreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\dto\\orderitemdto\\orderitemadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\dto\\orderitemdto\\orderitemadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\dto\\shoppingcartitemdto\\shoppingcartitemreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\dto\\shoppingcartitemdto\\shoppingcartitemreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\dto\\shoppingcartitemdto\\shoppingcartitemadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\dto\\shoppingcartitemdto\\shoppingcartitemadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60F56DC-FA2C-431D-BC2F-02595689BD36}|EcommerceProjectAPI\\EcommerceProjectAPI.csproj|solutionrelative:ecommerceprojectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\seedingdata\\seedrolesasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\seedingdata\\seedrolesasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectdal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|solutionrelative:ecommerceprojectdal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectbll\\manager\\categorymanager\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA519D-13E7-4048-AB5F-D458D8B41D1B}|EcommerceProjectBLL\\EcommerceProjectBLL.csproj|solutionrelative:ecommerceprojectbll\\manager\\categorymanager\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectdal\\migrations\\20250708160915_upadeshoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|solutionrelative:ecommerceprojectdal\\migrations\\20250708160915_upadeshoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectdal\\data\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|solutionrelative:ecommerceprojectdal\\data\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectdal\\data\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|solutionrelative:ecommerceprojectdal\\data\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Migrations\\20250708160404_upadeshoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EcommerceProjectDAL\\Migrations\\20250708160404_upadeshoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|c:\\users\\nada\\desktop\\e-commerce\\ecommerceproject\\ecommerceprojectdal\\data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337FA68E-B499-4DAC-B77B-904CC35A36E3}|EcommerceProjectDAL\\EcommerceProjectDAL.csproj|solutionrelative:ecommerceprojectdal\\data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\Controllers\\PaymentController\\PaymentController.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectAPI\\Controllers\\PaymentController\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\Controllers\\PaymentController\\PaymentController.cs",
+              "RelativeToolTip": "EcommerceProjectAPI\\Controllers\\PaymentController\\PaymentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:10:47.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfirmPaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\PaymentDto\\ConfirmPaymentDto.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Dto\\PaymentDto\\ConfirmPaymentDto.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\PaymentDto\\ConfirmPaymentDto.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Dto\\PaymentDto\\ConfirmPaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:10:40.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\PaymentDto\\PaymentResponseDto.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Dto\\PaymentDto\\PaymentResponseDto.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\PaymentDto\\PaymentResponseDto.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Dto\\PaymentDto\\PaymentResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:10:35.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentManger.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\PaymentManager\\PaymentManger.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\PaymentManager\\PaymentManger.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\PaymentManager\\PaymentManger.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\PaymentManager\\PaymentManger.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAASwCoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:10:04.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\Controllers\\AccountController\\AccountController.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectAPI\\Controllers\\AccountController\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\Controllers\\AccountController\\AccountController.cs",
+              "RelativeToolTip": "EcommerceProjectAPI\\Controllers\\AccountController\\AccountController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:06:05.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EcommerceProjectAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\appsettings.json",
+              "RelativeToolTip": "EcommerceProjectAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-07T11:40:30.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPaymentManger.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\PaymentManager\\IPaymentManger.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\PaymentManager\\IPaymentManger.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\PaymentManager\\IPaymentManger.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\PaymentManager\\IPaymentManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:11:08.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCartItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\ShoppingCartItemManager\\ShoppingCartItemManager.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\ShoppingCartItemManager\\ShoppingCartItemManager.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\ShoppingCartItemManager\\ShoppingCartItemManager.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\ShoppingCartItemManager\\ShoppingCartItemManager.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T22:51:14.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShoppingCartManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\ShoppingCartManager\\ShoppingCartManager.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\ShoppingCartManager\\ShoppingCartManager.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\ShoppingCartManager\\ShoppingCartManager.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\ShoppingCartManager\\ShoppingCartManager.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:07:59.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\Controllers\\OrderItemController\\OrderItemController.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectAPI\\Controllers\\OrderItemController\\OrderItemController.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\Controllers\\OrderItemController\\OrderItemController.cs",
+              "RelativeToolTip": "EcommerceProjectAPI\\Controllers\\OrderItemController\\OrderItemController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T00:05:54.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IShoppingCartItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\ShoppingCartItemManager\\IShoppingCartItemManager.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\ShoppingCartItemManager\\IShoppingCartItemManager.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\ShoppingCartItemManager\\IShoppingCartItemManager.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\ShoppingCartItemManager\\IShoppingCartItemManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T22:51:16.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\AccountManager\\EmailService.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\AccountManager\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\AccountManager\\EmailService.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\AccountManager\\EmailService.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAgwHIAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:04:41.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EcommerceProjectContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\DbHelper\\EcommerceProjectContext.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectDAL\\Data\\DbHelper\\EcommerceProjectContext.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\DbHelper\\EcommerceProjectContext.cs",
+              "RelativeToolTip": "EcommerceProjectDAL\\Data\\DbHelper\\EcommerceProjectContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:26:22.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\AccountManager\\IAccountManager.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\AccountManager\\IAccountManager.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\AccountManager\\IAccountManager.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\AccountManager\\IAccountManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:04:40.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderManger.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\OrderManager\\OrderManger.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\OrderManager\\OrderManger.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\OrderManager\\OrderManger.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\OrderManager\\OrderManger.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:03:25.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderManger.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\OrderManager\\IOrderManger.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\OrderManager\\IOrderManger.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\OrderManager\\IOrderManger.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\OrderManager\\IOrderManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:03:22.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\CategoryManager\\ICategoryManager.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\CategoryManager\\ICategoryManager.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\CategoryManager\\ICategoryManager.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\CategoryManager\\ICategoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:03:16.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\AccountManager\\AccountManager.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\AccountManager\\AccountManager.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\AccountManager\\AccountManager.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\AccountManager\\AccountManager.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwNIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:15:40.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderItemReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderItemDto\\OrderItemReadDto.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Dto\\OrderItemDto\\OrderItemReadDto.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderItemDto\\OrderItemReadDto.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Dto\\OrderItemDto\\OrderItemReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:51:44.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IOrderItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\OrderItemManager\\IOrderItemManager.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\OrderItemManager\\IOrderItemManager.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\OrderItemManager\\IOrderItemManager.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\OrderItemManager\\IOrderItemManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T22:51:28.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\OrderItemManager\\OrderItemManager.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\OrderItemManager\\OrderItemManager.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\OrderItemManager\\OrderItemManager.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\OrderItemManager\\OrderItemManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T22:37:22.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderDto\\OrderAddDto.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Dto\\OrderDto\\OrderAddDto.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderDto\\OrderAddDto.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Dto\\OrderDto\\OrderAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:56:47.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderDto\\OrderUpdateDto.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Dto\\OrderDto\\OrderUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderDto\\OrderUpdateDto.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Dto\\OrderDto\\OrderUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:56:46.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderDto\\OrderReadDto.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Dto\\OrderDto\\OrderReadDto.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderDto\\OrderReadDto.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Dto\\OrderDto\\OrderReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:56:31.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderItemAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderItemDto\\OrderItemAddDto.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Dto\\OrderItemDto\\OrderItemAddDto.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\OrderItemDto\\OrderItemAddDto.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Dto\\OrderItemDto\\OrderItemAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T22:48:30.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ShoppingCartItemReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\ShoppingCartItemDto\\ShoppingCartItemReadDto.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Dto\\ShoppingCartItemDto\\ShoppingCartItemReadDto.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\ShoppingCartItemDto\\ShoppingCartItemReadDto.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Dto\\ShoppingCartItemDto\\ShoppingCartItemReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:45:16.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ShoppingCartItemAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\ShoppingCartItemDto\\ShoppingCartItemAddDto.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Dto\\ShoppingCartItemDto\\ShoppingCartItemAddDto.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Dto\\ShoppingCartItemDto\\ShoppingCartItemAddDto.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Dto\\ShoppingCartItemDto\\ShoppingCartItemAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:45:10.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectAPI\\Program.cs",
+              "RelativeToolTip": "EcommerceProjectAPI\\Program.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAQwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:41:25.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\CategoryManager\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\Manager\\CategoryManager\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\Manager\\CategoryManager\\CategoryManager.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\Manager\\CategoryManager\\CategoryManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:08:45.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectDAL\\Data\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "EcommerceProjectDAL\\Data\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:11:56.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SeedRolesAsync.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\SeedingData\\SeedRolesAsync.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectBLL\\SeedingData\\SeedRolesAsync.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectBLL\\SeedingData\\SeedRolesAsync.cs",
+              "RelativeToolTip": "EcommerceProjectBLL\\SeedingData\\SeedRolesAsync.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:25:17.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250708160915_upadeshoppingcartitem.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Migrations\\20250708160915_upadeshoppingcartitem.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectDAL\\Migrations\\20250708160915_upadeshoppingcartitem.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Migrations\\20250708160915_upadeshoppingcartitem.cs",
+              "RelativeToolTip": "EcommerceProjectDAL\\Migrations\\20250708160915_upadeshoppingcartitem.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T16:09:15.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectDAL\\Data\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "EcommerceProjectDAL\\Data\\Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T16:08:10.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250708160404_upadeshoppingcartitem.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Migrations\\20250708160404_upadeshoppingcartitem.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectDAL\\Migrations\\20250708160404_upadeshoppingcartitem.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Migrations\\20250708160404_upadeshoppingcartitem.cs",
+              "RelativeToolTip": "EcommerceProjectDAL\\Migrations\\20250708160404_upadeshoppingcartitem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T16:04:04.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ShoppingCartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\Models\\ShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectDAL\\Data\\Models\\ShoppingCartItem.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\Models\\ShoppingCartItem.cs",
+              "RelativeToolTip": "EcommerceProjectDAL\\Data\\Models\\ShoppingCartItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T16:01:35.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "EcommerceProjectDAL\\Data\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Nada\\Desktop\\E-commerce\\EcommerceProject\\EcommerceProjectDAL\\Data\\Models\\Order.cs",
+              "RelativeToolTip": "EcommerceProjectDAL\\Data\\Models\\Order.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:17:49.248Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
