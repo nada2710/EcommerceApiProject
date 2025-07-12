@@ -2,6 +2,7 @@
 using EcommerceProjectBLL.Dto.ProductDto;
 using EcommerceProjectBLL.HandlerResponse;
 using EcommerceProjectBLL.Manager.ProductManager;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -50,6 +51,7 @@ namespace EcommerceProjectAPI.Controllers.ProductController
             return BadRequest(response.Message);
 
         }
+        [Authorize(Roles ="Admin")]
         [HttpPost("CreateProduct")]
         public async Task<ActionResult<ServiceResponse<bool>>> CreateProduct(ProductAddDto productAddDto)
         {
@@ -60,6 +62,7 @@ namespace EcommerceProjectAPI.Controllers.ProductController
             }
             return BadRequest(response.Message);
         }
+        [Authorize(Roles ="Admin")]
         [HttpDelete("DeleteProduct/{id}")]
         public async Task<ActionResult<ServiceResponse<bool>>> DeleteProduct(int id)
         {
@@ -71,6 +74,7 @@ namespace EcommerceProjectAPI.Controllers.ProductController
             return BadRequest(response.Message);
 
         }
+        [Authorize(Roles ="Admin")]
         [HttpPut("UpdateProduct")]
         public async Task<ActionResult<ServiceResponse<bool>>> UpdateProduct(ProductUpdateDto productUpdateDto)
         {

@@ -14,5 +14,6 @@ namespace EcommerceProjectBLL.Manager.AccountManager
         Task<AuthModel> VerifyEmail(VerifyEmailDto verifyEmailDto);
         Task<AuthModel> ForgotPasswordAsync(ForgotPasswordDto forgotPasswordDto);
         Task<AuthModel> ResetPasswordAsync(ResetPasswordDto resetPasswordDto);
+       
     }
 }

@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using NETCore.MailKit.Core;
+using Newtonsoft.Json.Linq;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
@@ -32,6 +33,7 @@ namespace EcommerceProjectBLL.Manager.AccountManager
             _cache=cache;
             _logger = logger;
         }
+       
         private string GenerateVerificationCode()
         {
             // Using cryptographically secure random number generator
@@ -90,7 +92,7 @@ namespace EcommerceProjectBLL.Manager.AccountManager
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Failed to send verification email}");
+                _logger.LogError(ex.InnerException, "Failed to send verification email}");
                 auth.Message = "Failed to send verification email";
                 return auth;
             }
@@ -110,11 +112,13 @@ namespace EcommerceProjectBLL.Manager.AccountManager
                 return new AuthModel { Message = "Please verify your email before logging in!" };
             }
             var JwtSecurityToken = CreateJwtToken(User);
-           
+            var tokenString = new JwtSecurityTokenHandler().WriteToken(await JwtSecurityToken);
+
             return new AuthModel
             {
                 Message=$"{User.UserName} login successfully\"",
                 IsAuthenticated=true,
+                Token = tokenString
             };
         }
         private async Task<JwtSecurityToken> CreateJwtToken(ApplicationUser user)
@@ -175,6 +179,7 @@ namespace EcommerceProjectBLL.Manager.AccountManager
                 IsActive = true,
                 UserRole=UserRole.Customer
             };
+
             var result = await _userManager.CreateAsync(user, pendingUser.Password);
 
             if (!result.Succeeded)

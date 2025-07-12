@@ -37,6 +37,8 @@ using EcommerceProjectBLL.Manager.PaymentManager;
 using EcommerceProjectBLL.AutoMapper.ReviewAutoMapper;
 using EcommerceProjectBLL.Manager.ReviewManager;
 using EcommerceProjectBLL.SeedingData;
+using EcommerceProjectDAL.SeedData;
+using Microsoft.OpenApi.Models;
 
 namespace EcommerceProjectAPI
 {
@@ -51,7 +53,40 @@ namespace EcommerceProjectAPI
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            // builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MyAPI", Version = "v1" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = @"JWT Authorization header using the Bearer scheme. 
+                        Enter 'Bearer' [space] and then your token.
+                        Example: 'Bearer 12345abcdef'",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "bearer"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                    {
+                    new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                 Id = "Bearer"
+                            },
+                    Scheme = "oauth2",
+                    Name = "Bearer",
+                    In = ParameterLocation.Header,
+
+                    },
+                    new List<string>()
+                    }
+               });
+            });
+
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(option =>
             {
@@ -141,6 +176,11 @@ namespace EcommerceProjectAPI
             
 
             app.MapControllers();
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                await SeedData.SeedAdminAsync(services);
+            }
 
             app.Run();
         }

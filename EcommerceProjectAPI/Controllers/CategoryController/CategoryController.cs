@@ -1,6 +1,7 @@
 ﻿using EcommerceProjectBLL.Dto.CategoryDto;
 using EcommerceProjectBLL.HandlerResponse;
 using EcommerceProjectBLL.Manager.CategoryManager;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -42,7 +43,7 @@ namespace EcommerceProjectAPI.Controllers.CategoryController
             }
             return BadRequest(response.Message);
         }
-
+        [Authorize(Roles ="Admin")]
         [HttpPost("CreateCategory")]
         public async Task<ActionResult<ServiceResponse<CategoryReadDto>>> AddCategory(CategoryAddDto categoryAddDto)
         {
@@ -53,6 +54,7 @@ namespace EcommerceProjectAPI.Controllers.CategoryController
             }
             return BadRequest(response.Message);
         }
+        [Authorize(Roles ="Admin")]
         [HttpDelete("DeleteCategory/{id}")]
         public async Task<ActionResult<ServiceResponse<bool>>> DeleteCategory(int id)
         {
@@ -64,6 +66,7 @@ namespace EcommerceProjectAPI.Controllers.CategoryController
             return BadRequest(response.Message);
 
         }
+        [Authorize(Roles ="Admin")]
         [HttpPut("UpdateCategory")]
         public async Task<ActionResult<ServiceResponse<bool>>> UpdateCategory(CategoryUpdateDto categoryUpdateDto)
         {
